@@ -24,7 +24,6 @@ export default function ChatScreen() {
     setInputText('');
 
     // Aquí iría la lógica para consultar la API de HuggingFace y obtener respuesta del bot
-    // Por ahora, solo simularemos una respuesta estática
     setTimeout(() => {
       const botMsg: Message = {
         id: (Date.now()+1).toString(),
